@@ -8,8 +8,10 @@ esphome:
     upload_speed: 2000000
 
 # Board config
-esp8266:
-  board: esp12e
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
 
 # Disable logging via UART
 logger:
